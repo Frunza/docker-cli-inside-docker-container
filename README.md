@@ -47,6 +47,11 @@ In your Docker compose file, you need to add the following:
       - /var/run/docker.sock:/var/run/docker.sock
 ```
 
+For testing purposes, you can run the following inside the docker container:
+```sh
+docker images
+```
+
 ## Usage
 
 From the root of the repository call:
